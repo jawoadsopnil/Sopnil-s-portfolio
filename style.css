@@ -1,0 +1,30 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+.color1{
+    color: deeppink;
+}
+section{
+    display: flex;
+}
+.half-width img{
+    width: 100%;
+    
+
+}
+.half-width{
+    padding-left: 30px;
+    width: 190%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: deeppink;
+    padding:10px 30px ;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+}
