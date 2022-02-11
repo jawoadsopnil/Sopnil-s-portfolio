@@ -10,8 +10,9 @@ h1{
 .color1{
     color: deeppink;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 130px;
 }
 .half-width img{
     width: 90%;
@@ -25,7 +26,7 @@ section{
 }
 .half-width{
   /* margin-left: 7; */
-    width: 50%;
+   width: 50%;
 }
 .link-button{
     text-decoration: none;
@@ -35,7 +36,72 @@ section{
     font-weight: 700;
     color: white;
 }
+
 .banner-top{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 130px;
+}
+.widthphoto{
+    width:50%;
+    
+
+}
+.widthphoto img{
+    width: 80%;
+    margin-left: 27px;
+}
+.link-button2{
+    background-color: rgba(255, 68, 0, 0.815);
+    text-decoration: none;
+    padding:10px 30px ;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+}
+#dream-bigger{
+    margin-right:50px;
+}
+.sidepic{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.lineaasho{
+    width: 60%;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+.lineaashonaa{
+    width: 50%;
+    margin-right: 30px;
+    padding-right: 20px;
+   
+}
+.orange-color{
+    color: orange;
+}
+.thirdpartcss{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    border-top: 15 rebeccapurple;
+}
+h2{
+    font-size: 40px;
+}
+.experince-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat ;
+    background-position: left;
+    padding-bottom: 40px;
+   
 }
